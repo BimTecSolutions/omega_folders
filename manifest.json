@@ -1,11 +1,11 @@
 {
-    "name": "omegafolder",
-    "short_name": "omegafolder",
+    "name": "Omega Folders Section",
+    "short_name": "Omega Folders Section",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A new Folder project at Omega.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
