@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -14,7 +15,8 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="https://bimtecsolutions.github.io/omega_folders/">
+
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -27,8 +29,8 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
   <title>Omega Folders Section</title>
   <link rel="manifest" href="manifest.json">
@@ -37,28 +39,30 @@
 <body>
 
   <script src="flutter_bootstrap.js" async></script>
-  
-  <script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore-compat.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore-compat.js"></script>
+
   <script type="module">
-    
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 
     const firebaseConfig = {
-      
 
       apiKey: "AIzaSyCtg1ng-Y-bNhaxV6MKsrgLdGqec4rQ_gg",
       authDomain: "omega-folders.firebaseapp.com",
       projectId: "omega-folders",
       storageBucket: "omega-folders.appspot.com",
-      messagingSenderId: "765457711825", 
+      messagingSenderId: "765457711825",
       appId: "1:765457711825:web:7f37dd0ffd2b5799e13bf0"
-      
+
     };
 
-  
+
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
   </script>
 </body>
+
 </html>
