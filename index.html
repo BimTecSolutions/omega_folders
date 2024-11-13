@@ -16,7 +16,7 @@
     the `--base-href` argument provided to `flutter build`.
   -->
 
-  <base href="https://bimtecsolutions.github.io/omega_folders/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -40,29 +40,24 @@
 
   <script src="flutter_bootstrap.js" async></script>
 
-
-  <script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore-compat.js"></script>
-
   <script type="module">
-
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+  
     const firebaseConfig = {
-
       apiKey: "AIzaSyCtg1ng-Y-bNhaxV6MKsrgLdGqec4rQ_gg",
       authDomain: "omega-folders.firebaseapp.com",
       projectId: "omega-folders",
       storageBucket: "omega-folders.appspot.com",
       messagingSenderId: "765457711825",
       appId: "1:765457711825:web:7f37dd0ffd2b5799e13bf0"
-
     };
-
-
+  
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
   </script>
+
 </body>
 
 </html>
